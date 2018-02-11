@@ -24,7 +24,6 @@ def create_train_data():
         for i in tqdm(os.listdir(os.path.join(TRAIN_DIR,img))):
 
             path =os.path.join(TRAIN_DIR,img)
--
             path=os.path.join(path,i)
             # print(path)
             path=str(path)
